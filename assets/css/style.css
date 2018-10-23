@@ -2,7 +2,70 @@
     box-sizing: content-box;
   }
 
-.navbar-custom{
-    background-color: aqua;
-    
+  header{
+    background-image: url('assets/images/background.jpg');
 }
+.navbar-brand{
+    background-color: rgb(58, 141, 123);
+    font-size: 40px;
+    color:aliceblue;
+    padding:20px 15px;
+    font-weight: 600;
+    font-family: Helvetica, Arial;
+}
+.navbar-brand:hover{
+    color:white;
+}
+.navbar-custom{
+    height:100px;
+    padding: 0px;
+    background-color: none;
+
+}
+h1{
+    color:rgb(41, 182, 140);
+    font-weight: bolder;
+    font-size:45px;
+}
+.nav-link{
+    color:rgb(13, 177, 122);
+    font-size:28px;
+}
+.nav-link:hover{
+    color:rgb(247, 168, 115);
+}
+.mid{
+    background-image: url('assets/images/background.jpg');
+    height: 500px;
+    border-top-style: solid;
+    border-width: 1px;
+    border-top-color: rgb(238, 226, 226);
+
+}
+.footer-copyright{
+    background-color: grey;
+}
+.blufoot{
+    background-color: aqua;
+    height:10px;
+}
+.top{
+    padding-left:0;
+    padding-right:0;
+}
+.aboutme{
+    margin-top: 25px;
+}
+hr{
+    height: 1px;
+    color: rgb(165, 163, 163);
+    background-color: rgb(206, 204, 204);
+}
+.toptop{
+    color:forestgreen;
+    font-weight: 400;
+    padding-right:0;
+    padding-left: 0;
+}
+
+
