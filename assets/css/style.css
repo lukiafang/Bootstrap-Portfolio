@@ -2,8 +2,8 @@
     box-sizing: content-box;
   }
 
-  header{
-    background-image: url('assets/images/background.jpg');
+header{
+    background-image: url('../images/background.jpg');
 }
 .navbar-brand{
     background-color: rgb(58, 141, 123);
@@ -35,7 +35,7 @@ h1{
     color:rgb(247, 168, 115);
 }
 .mid{
-    background-image: url('assets/images/background.jpg');
+    background-image: url('../images/background.jpg');
     height: 500px;
     border-top-style: solid;
     border-width: 1px;
@@ -55,6 +55,7 @@ h1{
 }
 .aboutme{
     margin-top: 25px;
+    padding-left:0;
 }
 hr{
     height: 1px;
@@ -66,6 +67,11 @@ hr{
     font-weight: 400;
     padding-right:0;
     padding-left: 0;
+    text-align: justify;
 }
-
-
+a{
+    color:green;
+}
+a:hover{
+    color:aqua;
+}
