@@ -4,6 +4,7 @@
 
 header{
     background-image: url('../images/background.jpg');
+    height: 16px;
 }
 .navbar-brand{
     background-color: rgb(58, 141, 123);
@@ -33,6 +34,9 @@ h1{
 }
 .nav-link:hover{
     color:rgb(247, 168, 115);
+}
+.undernav{
+    background-color: aqua;
 }
 .mid{
     background-image: url('../images/background.jpg');
@@ -74,4 +78,26 @@ a{
 }
 a:hover{
     color:aqua;
+}
+
+.work{
+    height: 200px;
+    width: 250px;
+}
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
+.workdiv{
+    position: relative;
+    margin:10px 0px;
+}
+.text-block{
+    position: absolute;
+    bottom:20px;
+    background-color: rgb(58, 141, 123);
+    width:250px;
+    color:white;
+    text-align: center;
+    font-size: 20px;
 }
